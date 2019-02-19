@@ -145,11 +145,25 @@ padding: 5em;
 
 
 .barre-event-detail{
+
   background: #ccc;
   border: 2px solid black;
   height: 10%;
+  display: flex !important;
+  position: relative;
+
+  }
+
 }
 
+
+.i {
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 
 
