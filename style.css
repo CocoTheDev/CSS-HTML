@@ -90,6 +90,13 @@ color: white;
   width: 75%;
 }
 
+.square3 {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+  width: 100%;
+}
 
 /* ---- CARDS LIST---- */
 .column {
@@ -418,7 +425,7 @@ $dark:          $gray-800 !default;
 
 $yiq-contrasted-threshold:  170 !default;
 
-/* // Body
+// Body
 
 $body-color:                $gray-800 !default;
 
@@ -518,4 +525,4 @@ $list-group-action-active-bg:       $gray-300 !default;
 
 // Close
 
-$close-text-shadow:                 none !default; */
+$close-text-shadow:                 none !default;
