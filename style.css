@@ -94,8 +94,8 @@ color: white;
 /* ---- CARDS LIST---- */
 .column {
   float: left;
-  width: 15%;
-  margin: 2em;
+  width: 25%;
+  margin: .5em;
 }
 
 /* Clear floats after the columns */
